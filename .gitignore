@@ -1,0 +1,48 @@
+
+# Python
+.venv/
+venv/
+
+
+# IDE
+.vscode/
+.idea/
+
+
+# Logs and temporary files
+*.log
+logs/
+tmp/
+
+# Generated runtime data
+results/*.jsonl
+results/*.csv
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Secrets
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Python environment
+.venv/
+__pycache__/
+*.pyc
+
+# Generated files
+backups/
+storage/
+results/
+audit_run.txt
+project_tree.txt
+*.log
+
+# Spark runtime data
+**/checkpoint/
+**/checkpoints/
+spark-warehouse/
+metastore_db/
